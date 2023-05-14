@@ -11,17 +11,10 @@ int main()
     int j = 1;
     while (j <= n)
     {
-      cout << "* ";
-      j += 1;
+      cout << i << " ";
+      j = j + 1;
     }
     cout << endl;
-    i += 1;
+    i = i + 1;
   }
 }
-
-/*
- * * * *
- * * * *
- * * * *
- * * * *
- */
