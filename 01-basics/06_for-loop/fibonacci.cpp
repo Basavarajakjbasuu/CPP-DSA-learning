@@ -10,12 +10,14 @@ int main() {
   cin >> n;
 
   cout << a << " " << b << " ";
-  for (int i = 1; i <= n-2; i++) {
-    int nextNumer = a + b;
-    cout << nextNumer << " ";
+  for (int i = 1; i <= n - 2; i++) {
+    int nextNumber = a + b;
+    cout << nextNumber << " ";
     a = b;
-    b = nextNumer;
+    b = nextNumber;
   }
+
+  cout << endl;
 }
 /*
   10
